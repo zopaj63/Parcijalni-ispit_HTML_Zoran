@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="hr">
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="stranica turističke agencije Avanturist, parcijalni ispit HTML cjeline">
+        <meta name="keywords" content="parcijalni ispit, turistička agencija, Avanturist">
+        <meta name="author" content="Zoran Pajnić">
+        <title>Turistička agencija &quot;Avanturist&quot;</title>
+    </head>
+
+    <body style="background-color: bisque; color: brown;">
+        <header>
+            <h1>Turistička agencija &quot;Avanturist&quot;</h1>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#onama">O nama</a>
+                    </li>
+                    <li>
+                        <a href="#djelatnost">Naše djelatnosti</a>
+                    </li>
+                    <li>
+                        <a href="#kontakt">Kontakt</a>
+                    </li>
+                </ul>
+            </nav>
+            <hr style="height: 1px; border-width: 0; background-color:brown; margin-bottom: 1rem; width: 100%;">
+        </header>
+
+        <main>
+            <h2>Turistička agencija &quot;Avanturist&quot;</h2>
+            <article id="onama">
+                <h3>O nama</h3>
+                <p title="o nama">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec blandit et nisl ac posuere. Suspendisse quis convallis tortor. Nunc porttitor nisl et tellus varius faucibus. Aliquam in quam viverra, commodo nisl non, porta tellus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis sodales odio vel lacus euismod congue. Maecenas ut porta urna, eu interdum enim. Fusce faucibus urna quis tristique elementum. Aliquam sed convallis risus.</p>
+                <img src="./multimedia/images/ljudi/grupe-ljudi/team.jpg" alt="radni tim agencije u akciji" width="760" title="naš radni stol">
+            </article>
+
+            <article id="djelatnost">
+                <h3>Naša djelatnost</h3>
+                <p title="naša djelatnost">Etiam commodo, orci et dictum tempor, lorem felis condimentum leo, ac mollis purus metus quis nulla. Donec vehicula dignissim ante, malesuada ultricies velit dictum in. Aliquam a libero in lorem tempor semper. Donec suscipit turpis eu venenatis dictum. Pellentesque at arcu tellus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nulla interdum magna quis arcu venenatis vulputate eu vitae sapien. Vivamus lacinia lacinia augue. Pellentesque auctor leo mauris, a luctus justo egestas pellentesque. Mauris volutpat, sem maximus tristique consectetur, risus magna posuere felis, ac tristique quam tortor in ligula. Aliquam placerat malesuada erat, nec tempus diam vehicula eu. Aenean auctor, nisl at suscipit porta, diam metus varius ante, et lobortis tellus nisl vitae augue. Proin interdum sit amet elit ut lobortis.</p>
+                <img src="./multimedia/images/stvari/adventure.jpg" alt="reklamni rekviziti agencije" width="760" title="reklamni rekviziti">
+            </article>
+
+            <aside id="kontakt">
+                <h3>Kontakt</h3>
+                <p>Pellentesque auctor leo mauris, a luctus justo egestas pellentesque. Mauris volutpat, sem maximus tristique consectetur, risus magna posuere felis, ac tristique quam tortor in ligula. Aliquam placerat malesuada erat, nec tempus diam vehicula eu.</p>
+                
+                <!-- nedostaje action adresa!-->
+                <form method="GET" action="">
+                    <label for="name">Ime i prezime</label><br>
+                    <input id="name" type="text" name="name" required><br><br>
+                    <label for="email">E-mail</label><br>
+                    <input id="email" type="email" name="email" required>
+                    <br><br>
+                    <label>
+                        Poruka<br>
+                        <textarea name="message" rows="4" cols="30"></textarea>
+                    </label><br><br>
+                    <button type="submit">Pošalji poruku</button>
+                </form>
+            </aside>
+            <hr style="height: 1px; border-width: 0; background-color:brown; margin-bottom: 1rem; width: 100%;">
+        </main>
+
+        <footer>
+            <span><em>Avanturist </em>&copy;2021.</span>
+            <div>
+                <a href="mailto:zoran.pajnic@gmail.com">
+                    <img src="./multimedia/images/logo/mail.png" alt="mail logotip ikonica" width="64">
+                </a>
+            </div>
+        </footer>
+    </body>
+</html>
